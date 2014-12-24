@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Search</string>
+    <string name="action_search">搜索</string>
+    <string name="action_settings">设置</string>
+    <string name="action_scanner">扫描二维码</string>
+    <string name="hint_input_search_baidu">百度一下，你就知道</string>
+    <string name="hint_input_search_google">Google it</string>
+    <string name="toast_defualt_prefix">默认搜索引擎已更换为\n</string>
+
+</resources>

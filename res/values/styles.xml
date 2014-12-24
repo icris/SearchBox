@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/bg_transparent</item>
+        <item name="android:windowAnimationStyle">@style/myanim</item>
+    </style>
+
+    <style name="myanim" parent="android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+
+    <style name="ThemeNoTitle" parent="android:Theme.Holo.Light.NoActionBar" />
+
+</resources>

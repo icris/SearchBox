@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <st.one.search.ui.MyEditor
+        android:id="@+id/et_bar_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textSize="20sp"
+        android:hint="@string/hint_input_search_baidu"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:background="@drawable/bg_round_rect">
+        <requestFocus/>
+        </st.one.search.ui.MyEditor>
+</LinearLayout>
